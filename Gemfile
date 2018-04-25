@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
+#gem 'rack-utf8_sanitizer'
+gem 'devise'
 # Use postgresql
 gem 'pg'
 # Use Puma as the app server
@@ -34,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'activeadmin'
+gem 'activeadmin_froala_editor'
+gem 'has_secure_token'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
